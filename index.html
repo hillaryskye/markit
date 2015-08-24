@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <main class="wrapper">
+
+  <article>
+    <hr class="hr-first">
+    <div>
+       <h1></h1>
+       <div class="top">
+         <div class="change">
+           <h2 id="LastPrice"></h2>
+           <div class="right">
+              <h3 class="left green"></h3>
+           </div>
+         </div>
+      </div>
+
+    </div>
+    <ul>
+      Range<li><h5></h5></Li>
+      <hr class="hr-second">
+      Open<li><h7></h7></li>
+      <hr class="hr-second">
+      Volume<li><h8></h8></li>
+      <hr class="hr-second">
+      Market Cap<li><h9></h9></li>
+      <hr class="hr-second">
+      <li>As of<h10 class="right"></h10></li>
+    </ul>
+      <hr class="hr-second">
+      <form class="well control-group form-inline">
+				        <label for="symbol">Try "AAPL" or "MSFT" or "GE":</label>
+        				<input type="text" id="symbol" name="symbol" class="input" placeholder="Enter symbol">
+        <button type="submit">Get New Quote</button>
+			</form>
+</article>
+</main>
+<script src="app.js"></script>
+
+</body>
+</html>
